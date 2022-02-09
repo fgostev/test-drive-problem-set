@@ -1,8 +1,4 @@
-const functions = require('./functions');
 
-test('return a value', () => {
-  expect(functions.capitalize("hello")).toBe("Hello");
-});
 
 test('return capitalized first letter', () =>{
   expect(functions.capitalize("hello dear friends!!!")).toBe("Hello dear friends!!!");
